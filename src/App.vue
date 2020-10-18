@@ -28,7 +28,22 @@
       
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    
+    <div v-if="Math.random() > 0.5">
+    <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+</svg>
+    </div>
+      
+
+
+<div v-if="Math.random() > 0.5">
+    <svg width="30px" height="30px" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+</svg>
+    </div>
+
+
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Share</button>
     </form>
   </div>
