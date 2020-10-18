@@ -1,4 +1,7 @@
-
+new Vue({
+    router,
+    store,
+  render: h => h(App)
 
 // 1. Connect to the domain anonymously.
 Convergence.connectAnonymously(DOMAIN_URL)
