@@ -24,7 +24,7 @@ function initApp(domain) {
 function initModel(model) {
   const stringModel = model.elementAt("text");
   const textArea = document.getElementById("textarea");
-  console.log(stringModel.value());
+  // console.log(stringModel.value());
 
   // Sets the value of the text area and performs a two-way-binding.
   ConvergenceInputElementBinder.bindTextInput(textArea, stringModel);
