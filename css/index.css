@@ -1,0 +1,21 @@
+/* Student Name: Parichehr Karimi          */
+/* Class:        CSD 122 JavaScript/JQuery */
+/* Instructor:   Wendy Breiding            */
+/* Assignment:   Final Project             */
+/* File:         index.css                 */
+/* Description:  This file contains the CSS code for the Simple Office Application Suite Website Homepage.*/
+
+
+/* Import other on-site CSS*/
+@import url("main.css");
+@import url("slideshow.css");
+
+/*----------------------CSS Home Page Picture (Box Setup)-----------------------*/
+#homePic {
+	max-width: 100%;
+	min-width:100%
+	margin: 10 auto;
+	position:relative;
+	top: 0px;
+	left: 0px;
+}

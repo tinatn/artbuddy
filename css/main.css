@@ -1,0 +1,285 @@
+/* Student Name: Parichehr Karimi          */
+/* Student Name: Eric Trofimchik           */
+/* Student Name: Geoffrey Powell-Isom      */
+/* Class:        CSD 122 JavaScript/JQuery */
+/* Instructor:   Wendy Breiding            */
+/* Assignment:   Final Project             */
+/* File:         main.css                  */
+/* Description:  This file contains the main CSS code for the Simple Offic Application Suite Website.*/
+
+
+/* Import fonts from google font*/
+@import url('https://fonts.googleapis.com/css?family=Baloo|Dosis|Handlee');
+
+
+/*----------------------CSS Reset-----------------------*/
+html, body, header, article, aside, footer, nav {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*----------------------Base CSS-----------------------*/
+body {
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/*----------------------CSS Layout-----------------------*/
+html {
+	background-image:url(../images/pattern.png);
+	background-repeat: repeat;
+	background-color: rgb(64, 64, 64);
+}
+
+.container {
+	width:90%;
+	float: center;
+	margin: 0em auto;
+	padding:0em;
+	box-shadow: 0 9px 0px 0px rgba(0, 0, 0, 0), 0 -9px 0px 0px rgba(0, 0, 0, 0), 12px 0 15px -4px rgba(0, 0, 0, 0.8), -12px 0 15px -4px rgba(0,0,0, 0.8);
+	background-color: #d9d9d9;
+	position: relative;
+	top: -.5em;
+	/*display: block;*/
+	display: table;
+	font-family: 'Dosis', sans-serif;
+	min-height: 100%;
+}
+
+header {
+	background-color: #262626;
+	width: 100%;
+	height:200px;
+	min-width: 550px;
+}
+
+header img{
+	position: relative;
+	top: 1.9em;
+	left: 2em;
+	width: 25em;
+	max-height:150px;
+	vertical-align: middle;
+}
+
+nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: table;
+}
+
+nav ul {
+	display: table;
+	text-align: center;
+	margin-left: -2em;
+	margin-right: 1em;
+}
+
+nav ul li {
+	display: table-cell;
+	color: white;
+	list-style-type: none;
+	padding: .4em;
+	margin: 0 2em;
+	width: 150px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size:1em;
+	transition: all .5s linear 0s;
+}
+
+nav ul li a:hover {
+	font-size: 1.2em;
+}
+
+nav ul li a:active {
+	color: yellow;
+}
+
+.grad {
+	background:  #1a1a1a;
+}
+
+.wrapper {
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 1em;
+	white-space: nowrap;
+	min-height: 1000px;
+}
+
+main aside, main article {
+	vertical-align: top;
+	display: inline-block;
+	white-space: normal;
+	min-height: 1000px;
+	height: 100vh;
+}
+
+main article {
+	width: 65%;
+	background-color: white;
+	padding: .4em 1em;
+	border: thin grey dotted;
+	box-shadow: 4px 4px 12px 0px;
+	border-radius: 25px;
+	min-height: 900px;
+}
+
+main article h1, main article h2 {
+	color: #cc0000;
+	font-family: 'Baloo', cursive;
+}
+
+main article h1 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bolder;
+	text-shadow: 2px 2px 4px black;
+}
+
+main article h2 {
+	font-weight: lighter;
+	margin-left: 1em;
+}
+
+main article p {
+	width: 95%;
+	margin: 0 auto;
+	padding: 1em;
+	line-height: 1.7em;
+}
+
+main article img {
+	width: 100%;
+	height:auto;
+	margin: 2em auto;
+}
+
+main article ol {
+	list-style-position: inside;
+	line-height: 2em;
+}
+
+main aside {
+	width: 30%;
+	margin-left:.8em;
+	overflow: auto;
+	margin-top: -1em;
+	height: 800px;
+}
+
+aside ul {
+	text-align: center;
+}
+
+aside ul li {
+	list-style-type: none;
+	padding: .6em;
+	margin: 1em 0em 0em 0em ;
+	background-color: white;
+	box-shadow: 0px 0px 12px;
+	transition: all .6s linear;
+}
+
+aside ul li:hover {
+	opacity: .5;
+}
+
+aside ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.1em;
+	font-weight: 900;
+}
+
+aside ul img {
+	margin: 1em auto;
+	width: 90%;
+}
+
+footer {
+	width: 100%;
+	position: relative;
+	left: 0;
+	bottom: -.5em;
+	height: 8%;
+	color: white;
+}
+
+footer p {
+	margin: 0 auto;
+	padding: 1em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*----------------------CSS Home Page Picture (Box Setup)-----------------------*/
+#homePic {
+	max-width: 100%;
+	min-width:100%
+	margin: 10 auto;
+	position:relative;
+	top: 0px;
+	left: 0px;
+}
+
+/*----------------------CSS Footer-----------------------*/
+#footer {
+	display: block;
+	clear: both;
+	position: relative;
+	background-color: rgba(0,0,0,25%);
+	color: #ffffff;
+}
+
+#footer-copyright {
+	display: inline-block;
+	float: left;
+	width: 25%;
+	background-color: rgba(255,255,255,50%);
+	margin: 0;
+}
+
+#footer-block2 {
+	display: inline-block;
+	float: left;
+	width: 71%;
+	height: 100%;
+	margin: 0;
+}
+
+#footer-disclaimer {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/*----------------------SideBar-----------------------*/
+.sideBarImage {
+	height: 8em;
+	width:  8em;
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*font-size: 100%;*/
+	/*font: inherit;*/
+	/*vertical-align: baseline;*/
+}
+
+#sideBar {
+	padding-right: 1em; /*leave enough space for the edge gradient on the right side*/
+}

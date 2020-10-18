@@ -1,0 +1,32 @@
+/* Student Name: Geoffrey Powell-Isom      */
+/* Class:        CSD 122 JavaScript/JQuery */
+/* Instructor:   Wendy Breiding            */
+/* Assignment:   Final Project             */
+/* File:         whiteboard.css            */
+/* Description:  This file contains the CSS code for the Simple Offic Whiteboard Application.*/
+
+
+/* Import other on-site CSS*/
+@import url("main.css");
+
+/*----------------------CSS Whiteboard-----------------------*/
+#whiteboard-container {
+	display: inline-block;
+	float: left;
+	position: relative;
+	width: 700px;
+	white-space: normal;
+}
+
+#whiteboard {
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0;
+	background-color: #ffffff;
+	color: #ffffff;
+}
+
+.toolButton {
+	display: inline-block;
+	float: left;
+}

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Whiteboard | Simple Office</title>
+
+	<link rel="stylesheet" type="text/css" href="../css/whiteboard.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="../javascript/whiteboard.js"></script>
+</head>
+<body>
+	<section class="container">
+		<header>
+			<div id="banner">
+				<a href="../index.html"><img src="../images/logo.png" width="200" alt="logo" class="logo"></a>
+			</div>
+		</header>
+		<nav class="grad">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../pages/whiteboard.html">Whiteboard</a></li>
+				<li><a href="../pages/contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		<main class="wrapper">
+
+			<!--Whiteboard Starts Here-->
+			<article id="whiteboard-container">
+				<p>X: <input id="x-coordinate" readonly>
+					Y: <input id="y-coordinate" readonly>
+					Color: <input id="markerColor">
+					<input type="button" id="totalReset" value="!!TOTAL RESET!!">
+				</p>
+				<canvas id="whiteboard" width="700" height="650"></canvas>
+				<p>
+					<input type="button" class="toolButton" id="eraser" value="ERASER">
+					<input type="button" class="toolButton, colorButton" value="black">
+					<input type="button" class="toolButton, colorButton" value="darkgray">
+					<input type="button" class="toolButton, colorButton" value="lightgray">
+					<input type="button" class="toolButton, colorButton" value="white">
+					<input type="button" class="toolButton, colorButton" value="red">
+					<input type="button" class="toolButton, colorButton" value="pink">
+					<input type="button" class="toolButton, colorButton" value="orange">
+					<input type="button" class="toolButton, colorButton" value="yellow">
+					<input type="button" class="toolButton, colorButton" value="yellowgreen">
+					<input type="button" class="toolButton, colorButton" value="green">
+					<input type="button" class="toolButton, colorButton" value="blue">
+					<input type="button" class="toolButton, colorButton" value="indigo">
+					<input type="button" class="toolButton, colorButton" value="violet">
+				</p>
+			</article>
+			<!--Whiteboard Ends Here-->
+
+			<!--Sidebar Starts Here-->
+			<aside id="sideBar">
+				<ul>
+					<li><a href="../pages/whiteboard.html" target ="_blank"><img src="../images/whiteboard.jpg" class="sideBarImage" alt="Whiteboard Application"><br>Whiteboard</a></li>
+				</ul>
+			</aside>
+			<!--Sidebar Ends Here-->
+
+		</main>
+	</section>
+
+	<!--Footer Starts Here-->
+	<footer class="grad" id="footer">
+		<section id="footer-copyright">
+ 		</section>
+		<section id="footer-block2">
+			<nav>
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../pages/whiteboard.html">Whiteboard</a></li>
+					<li><a href="../pages/contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</section>
+	</footer>
+	<!--Footer Ends Here-->
+
+</body>
+</html>
