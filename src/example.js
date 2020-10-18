@@ -54,7 +54,7 @@ function drawLine() {
   ctx.lineTo(200, 100);
   ctx.stroke();
 
-};
+}
 
 (function() {
   function resetModel() {
@@ -64,7 +64,7 @@ function drawLine() {
     //   id: "getting-started",
     //   data: { clicked: false }
     // });
-  };
+  }
 
   window.onload = function() {
     document.getElementById('resetButton').onclick = resetModel;
